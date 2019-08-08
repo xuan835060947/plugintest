@@ -82,6 +82,12 @@
 
     </action>
 
+    <action id="sendFile" class="com.test.SendFile" text="sendFile">
+      <add-to-group group-id="FileMenu" anchor="first"/>
+    </action>
+    <action id="sendPtsFile" class="com.test.SendPtsFile" text="sendPtsFile">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+    </action>
   </actions>
 
 
